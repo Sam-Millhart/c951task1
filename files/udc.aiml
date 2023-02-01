@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+
+  <category>
+    <pattern>*</pattern>
+    <template>Hello! I'm here to help you learn more about the best career options for you and your CompSci degree!
+    <br></br><br></br>
+    Are you a creative Person?
+        <button>
+            <text>Yes</text>
+            <postback>uidesign2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>softwaredev</postback>
+        </button>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>Help</pattern>
+    <template>Please reach out to the office directly at 555-867-5309</template>
+    </category>
+  
+  <category>
+    <pattern>uidesign2</pattern>
+    <template>Are you a detail orientated person?
+        <button>
+            <text>Yes</text>
+            <postback>uidesignanswer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>softwaredev</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>softwaredev</pattern>
+    <template>Do you enjoy problem solving?
+        <button>
+            <text>Yes</text>
+            <postback>softwaredev2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>pm</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>softwaredev2</pattern>
+    <template>Are you good at multitasking?
+        <button>
+            <text>Yes</text>
+            <postback>softwaredevanswer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>pm</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>pm</pattern>
+    <template>Do you enjoy planning and organizing?
+        <button>
+            <text>Yes</text>
+            <postback>pm2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>videogamedev</postback>
+        </button>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>pm2</pattern>
+    <template>Do you have strong leadership skills?
+        <button>
+            <text>Yes</text>
+            <postback>pmanswer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>videogamedev</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+    <pattern>videogamedev</pattern>
+    <template>Are you good at storytelling?
+        <button>
+            <text>Yes</text>
+            <postback>videogamedev2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>aiengineer</postback>
+        </button>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>videogamedev2</pattern>
+    <template>Do you have strong follow through skills?
+        <button>
+            <text>Yes</text>
+            <postback>videogamedevanswer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>aiengineer</postback>
+        </button>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>aiengineer</pattern>
+    <template>Do you have strong programming skills?
+        <button>
+            <text>Yes</text>
+            <postback>aiengineer2</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noanswer</postback>
+        </button>
+    </template>
+  </category>
+  
+    <category>
+    <pattern>aiengineer2</pattern>
+    <template>Are you skilled in probability and statistics?
+        <button>
+            <text>Yes</text>
+            <postback>aiengineeranswer</postback>
+        </button>
+        <button>
+            <text>No</text>
+            <postback>noanswer</postback>
+        </button>
+    </template>
+  </category>
+  
+  <category>
+      <pattern>uidesignanswer</pattern>
+      <template>UI Design will be a great fit for you!</template>
+  </category>
+  <category>
+      <pattern>softwaredevanswer</pattern>
+      <template>Software Developer will be a great fit for you!</template>
+  </category>
+  <category>
+      <pattern>pmanswer</pattern>
+      <template>Project Management will be a great fit for you!</template>
+  </category>
+  <category>
+      <pattern>videogamedevanswer</pattern>
+      <template>Video Game Developer will be a great fit for you!</template>
+  </category>
+  <category>
+      <pattern>aiengineeranswer</pattern>
+      <template>AI Engineer will be a great fit for you!</template>
+  </category>
+   <category>
+      <pattern>noanswer</pattern>
+      <template>It seeems we need some more details to provide a suggestion. Please reach out to the office 555-867-5309</template>
+  </category>
+  
+</aiml>
+
